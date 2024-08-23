@@ -12,11 +12,280 @@
     />
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- GOOGLE FONTS LINK -->
-    <!-- FONT AWESOME LINK -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FONT AWESOME CDN LINK -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- TAILWIND.CONFIG STARTS -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: "rgba(171, 239, 95, 1);",
+              primary1: "rgba(171, 239, 95, 0.5);",
+              primary2: "rgba(171, 239, 95, 0.2);",
+              background: "rgba(128, 128, 128, 0.1);",
+              b1: "rgba(255, 255, 255,1)",
+              b2: "rgba(255, 255, 255, 0)",
+              t1: "rgba(115, 115, 115, 1)",
+              t2: "rgba(73,73,73, 1)",
+              black1: "rgba(33,33,33,1)",
+            },
+            fontFamily: {
+              manrope: "Manrope",
+            },
+            backgroundImage: {
+              footer_bg: "url('./assets/bg.jpg')",
+            },
+          },
+        },
+      };
+    </script>
   </head>
-  <body>
+  <body class="font-manrope max-w-[1440px] mx-auto bg-background">
     <!-- HEADER SECTION -->
-    <header></header>
+    <header class="bg-gradient-to-b from-b2 to-b1">
+      <!-- NAV-BER STARTS -->
+      <nav class="py-10">
+        <div class="navbar justify-between px-0 w-11/12 lg:w-10/12 mx-auto">
+          <div class="navbar-start w-auto">
+            <div class="md:flex">
+              <div href="" class="flex items-center gap-2 cursor-default">
+                <div
+                  class="flex justify-center items-center rounded-full h-[2rem] min-h-[2rem] w-[2rem] bg-primary"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="2"
+                    stroke="currentColor"
+                    class="size-5"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+                    />
+                  </svg>
+                </div>
+                <div class="text-[28px] md:text-4xl font-extrabold">
+                  Renterio
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="flex items-center gap-6 text-base font-semibold text-t1">
+              <li>
+                <a class="hover:text-black hover:cursor-pointer hover:font-bold"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a class="hover:text-black hover:cursor-pointer hover:font-bold"
+                  >Services</a
+                >
+              </li>
+              <li>
+                <a class="hover:text-black hover:cursor-pointer hover:font-bold"
+                  >Portfolio</a
+                >
+              </li>
+              <li>
+                <a class="hover:text-black hover:cursor-pointer hover:font-bold"
+                  >Blogs</a
+                >
+              </li>
+              <li>
+                <a class="hover:text-black hover:cursor-pointer hover:font-bold"
+                  >Contact Us</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="navbar-end w-auto space-x-4">
+            <a class="btn btn-circle hidden sm:flex bg-white"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-7 text-t1"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
+                />
+              </svg>
+            </a>
+            <a class="btn btn-circle hidden sm:flex bg-white"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-7 text-t1"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"
+                />
+              </svg>
+            </a>
+            <div class="hidden sm:flex">
+              <a
+                href=""
+                class="flex gap-2 items-center px-5 py-3 rounded-full bg-primary"
+              >
+                <div class="text-xl font-extrabold">Book Consult</div>
+                <div
+                  class="flex justify-center items-center rounded-full h-[2rem] min-h-[2rem] w-[2rem] bg-black"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="2"
+                    stroke="currentColor"
+                    class="size-5 text-white"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+                    />
+                  </svg>
+                </div>
+              </a>
+            </div>
+            <div class="dropdown">
+              <a
+                tabindex="0"
+                role="button"
+                class="btn btn-circle lg:hidden bg-white"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="size-6 text-t1"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                  />
+                </svg>
+              </a>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content bg-base-100 -right-2 sm:right-0 rounded-box z-[1] mt-3 w-52 p-2 shadow text-base text-t1 font-semibold"
+              >
+                <li>
+                  <a
+                    class="hover:text-black hover:cursor-pointer hover:font-bold"
+                    >Home</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="hover:text-black hover:cursor-pointer hover:font-bold"
+                    >Services</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="hover:text-black hover:cursor-pointer hover:font-bold"
+                    >Portfolio</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="hover:text-black hover:cursor-pointer hover:font-bold"
+                    >Blogs</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="hover:text-black hover:cursor-pointer hover:font-bold"
+                    >Contact Us</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- HERO STARTS -->
+      <section id="hero">
+        <div class="hero sm:px-5 w-11/12 lg:w-10/12 mx-auto">
+          <div class="hero-contentpx-0 px-0 flex-col">
+            <img
+              src="./assets/banner.png"
+              class="max-w-xs mx-auto sm:max-w-md md:max-w-lg lg:max-w-xl"
+            />
+            <div class="flex flex-col sm:items-center">
+              <h1
+                class="text-3xl lg:text-6xl sm:text-4xl font-extrabold text-black1 text-center mx-auto leading-[32px] lg:leading-[87px] sm:leading-[49px] lg:max-w-5xl sm:max-w-2xl"
+              >
+                A barn house of this design has a striking appearance
+              </h1>
+              <p
+                class="py-6 text-center text-t2 font-medium leading-6 text-sm md:text-base lg:max-w-4xl sm:max-w-xl"
+              >
+                The barn house captivates with its blend of rustic charm and
+                modern sophistication, featuring weathered wood, sleek metal
+                accents, and large windows that flood the space with natural
+                light.
+              </p>
+              <a
+                href=""
+                class="flex gap-2 items-center px-5 py-3 rounded-full bg-primary1 border-2 border-primary"
+              >
+                <div class="flex items-center gap-2 max-w-48 mx-auto">
+                  <div class="text-xl font-bold text-black1">View Details</div>
+                  <div
+                    class="flex justify-center items-center rounded-full h-[2rem] min-h-[2rem] w-[2rem] bg-primary"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="2"
+                      stroke="currentColor"
+                      class="size-5 text-black1"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
     <!-- MAIN SECTION -->
     <main></main>
     <!-- FOOTER SECTION -->
