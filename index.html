@@ -41,6 +41,7 @@
               t1: "rgba(115, 115, 115, 1)",
               t2: "rgba(73,73,73, 1)",
               black1: "rgba(33,33,33,1)",
+              white1: "rgba(233, 233, 233, 1)",
             },
             fontFamily: {
               manrope: "Manrope",
@@ -775,7 +776,7 @@
             </div>
           </form>
           <button
-            class="btn btn-block rounded-full p-0 py-1 mt-6 box-content bg-primary"
+            class="btn btn-block rounded-full p-0 py-1 mt-6 box-content bg-primary border-0"
           >
             <div class="text-xl font-extrabold">Book Consult</div>
             <div
@@ -802,6 +803,68 @@
       <div class="w-full h-2 bg-white"></div>
     </main>
     <!-- FOOTER SECTION -->
-    <footer></footer>
+    <footer class="bg-black py-32">
+      <div class="text-center space-y-6 w-11/12 lg:w-10/12 mx-auto">
+        <div class="flex justify-center gap-2">
+          <div
+            class="flex justify-center items-center rounded-full h-[2rem] min-h-[2rem] w-[2rem] bg-primary"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="2"
+              stroke="currentColor"
+              class="size-5 text-balc1"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+              />
+            </svg>
+          </div>
+          <div class="text-white text-3xl font-extrabold">Rinterio</div>
+        </div>
+        <p
+          class="text-base font-medium max-w-screen-sm mx-auto text-t1 leading-7"
+        >
+          The barn house captivates with its blend of rustic charm and modern
+          sophistication, featuring weathered wood, sleek metal accents.
+        </p>
+        <div
+          class="text-white1 font-bold flex flex-col sm:flex-row justify-evenly gap-6 sm:gap-0 lg:px-20"
+        >
+          <a href="">Home</a>
+          <a href="">Services</a>
+          <a href="">Portfolio</a>
+          <a href="">Blogs</a>
+          <a href="">Contact Us</a>
+        </div>
+        <button
+          class="btn w-full sm:w-auto sm:px-4 rounded-full p-0 py-1 mt-6 sm:box-content bg-primary border-0 hover:bg-green-400"
+        >
+          <div class="text-xl font-extrabold">Book Consult</div>
+          <div
+            class="flex justify-center items-center rounded-full h-[2rem] min-h-[2rem] w-[2rem] bg-black"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="2"
+              stroke="currentColor"
+              class="size-5 text-white"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+              />
+            </svg>
+          </div>
+        </button>
+      </div>
+    </footer>
   </body>
 </html>
