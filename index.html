@@ -42,6 +42,10 @@
               t2: "rgba(73,73,73, 1)",
               black1: "rgba(33,33,33,1)",
               white1: "rgba(233, 233, 233, 1)",
+              Concept_bg: "rgba(231, 193, 211, 1)",
+              Design_bg: "rgba(239, 218, 110, 1)",
+              Supervision_bg: "rgba(164, 218, 195, 1)",
+              Budget_bg: "rgba(119, 170, 234, 1)",
             },
             fontFamily: {
               manrope: "Manrope",
@@ -56,9 +60,9 @@
   </head>
   <body class="font-manrope max-w-[1440px] mx-auto bg-background">
     <!-- HEADER SECTION -->
-    <header class="bg-gradient-to-b from-b2 to-b1">
+    <header class="pb-10 sm:20 lg:pb-24 bg-gradient-to-b from-b2 to-b1">
       <!-- NAV-BER STARTS -->
-      <nav class="py-10">
+      <nav class="py-5 sm:py-7 md:py-10">
         <div class="navbar justify-between px-0 w-11/12 lg:w-10/12 mx-auto">
           <div class="navbar-start w-auto">
             <div class="md:flex">
@@ -152,7 +156,7 @@
             <div class="hidden sm:flex">
               <a
                 href=""
-                class="flex gap-2 items-center px-5 py-3 rounded-full bg-primary"
+                class="flex gap-2 items-center px-5 py-3 rounded-full bg-primary hover:bg-lime-500"
               >
                 <div class="text-xl font-extrabold">Book Consult</div>
                 <div
@@ -258,7 +262,7 @@
               </p>
               <a
                 href=""
-                class="flex gap-2 items-center px-5 py-3 rounded-full bg-primary1 border-2 border-primary"
+                class="flex gap-2 items-center px-5 py-3 rounded-full bg-primary1 border-2 border-primary hover:bg-lime-300"
               >
                 <div class="flex items-center gap-2 max-w-48 mx-auto">
                   <div class="text-xl font-bold text-black1">View Details</div>
@@ -290,7 +294,9 @@
     <!-- MAIN SECTION -->
     <main>
       <!-- DESIGN THOUGHTFUL SECTION -->
-      <div class="hero py-32 w-11/12 lg:w-10/12 mx-auto relative">
+      <div
+        class="hero py-10 sm:py-20 lg:py-24 w-11/12 lg:w-10/12 mx-auto relative"
+      >
         <img
           src="./assets/Vector.png"
           alt=""
@@ -379,28 +385,88 @@
         class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 bg-white text-t1 p-6 w-11/12 lg:w-10/12 mx-auto rounded-3xl"
       >
         <div class="text-center p-6 space-y-3">
-          <i class="fa-regular fa-message text-3xl"></i>
-          <h3 class="font-extrabold text-4xl text-t2">+350</h3>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="size-9 text-t1 text-center mx-auto"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M8.625 9.75a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H8.25m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H12m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0h-.375m-13.5 3.01c0 1.6 1.123 2.994 2.707 3.227 1.087.16 2.185.283 3.293.369V21l4.184-4.183a1.14 1.14 0 0 1 .778-.332 48.294 48.294 0 0 0 5.83-.498c1.585-.233 2.708-1.626 2.708-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0 0 12 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018Z"
+            />
+          </svg>
+
+          <h3 class="font-extrabold text-4xl text-t2">235+</h3>
           <p class="font-medium">Happy Client Review</p>
         </div>
         <div class="text-center p-6 space-y-3">
-          <i class="fa-regular fa-message text-3xl"></i>
-          <h3 class="font-extrabold text-4xl text-t2">+350</h3>
-          <p class="font-medium">Happy Client Review</p>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="size-9 text-t1 text-center mx-auto"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3.75 21h16.5M4.5 3h15M5.25 3v18m13.5-18v18M9 6.75h1.5m-1.5 3h1.5m-1.5 3h1.5m3-6H15m-1.5 3H15m-1.5 3H15M9 21v-3.375c0-.621.504-1.125 1.125-1.125h3.75c.621 0 1.125.504 1.125 1.125V21"
+            />
+          </svg>
+
+          <h3 class="font-extrabold text-4xl text-t2">50+</h3>
+          <p class="font-medium">Work Departments</p>
         </div>
         <div class="text-center p-6 space-y-3">
-          <i class="fa-regular fa-message text-3xl"></i>
-          <h3 class="font-extrabold text-4xl text-t2">+350</h3>
-          <p class="font-medium">Happy Client Review</p>
+          <div class="">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.2"
+              stroke="currentColor"
+              class="size-9 text-t1 text-center mx-auto"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M18 18.72a9.094 9.094 0 0 0 3.741-.479 3 3 0 0 0-4.682-2.72m.94 3.198.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0 1 12 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 0 1 6 18.719m12 0a5.971 5.971 0 0 0-.941-3.197m0 0A5.995 5.995 0 0 0 12 12.75a5.995 5.995 0 0 0-5.058 2.772m0 0a3 3 0 0 0-4.681 2.72 8.986 8.986 0 0 0 3.74.477m.94-3.197a5.971 5.971 0 0 0-.94 3.197M15 6.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm6 3a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Zm-13.5 0a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Z"
+              />
+            </svg>
+          </div>
+
+          <h3 class="font-extrabold text-4xl text-t2">30k+</h3>
+          <p class="font-medium">Our Happy Client</p>
         </div>
         <div class="text-center p-6 space-y-3">
-          <i class="fa-regular fa-message text-3xl"></i>
-          <h3 class="font-extrabold text-4xl text-t2">+350</h3>
-          <p class="font-medium">Happy Client Review</p>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="size-9 text-t1 text-center mx-auto"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M15 19.128a9.38 9.38 0 0 0 2.625.372 9.337 9.337 0 0 0 4.121-.952 4.125 4.125 0 0 0-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 0 1 8.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0 1 11.964-3.07M12 6.375a3.375 3.375 0 1 1-6.75 0 3.375 3.375 0 0 1 6.75 0Zm8.25 2.25a2.625 2.625 0 1 1-5.25 0 2.625 2.625 0 0 1 5.25 0Z"
+            />
+          </svg>
+
+          <h3 class="font-extrabold text-4xl text-t2">350+</h3>
+          <p class="font-medium">Staff Members</p>
         </div>
       </div>
       <!-- WORKS PROCESS SECTION -->
-      <div class="w-11/12 lg:w-10/12 mx-auto space-y-10">
+      <div
+        class="py-10 sm:py-20 lg:py-24 w-11/12 lg:w-10/12 mx-auto space-y-10"
+      >
         <div class="text-center space-y-6">
           <a
             class="btn border-0 btn-sm font-bold text-base rounded-full w-40 box-content py-1 mx-auto bg-white text-t2 flex justify-center gap-2"
@@ -433,7 +499,7 @@
           </p>
         </div>
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          <div class="border p-6 rounded-3xl bg-rose-300">
+          <div class="border p-6 rounded-3xl bg-Concept_bg">
             <img src="./assets/concept.png" alt="" />
             <h4 class="text-2xl font-bold text-black1 pb-4 pt-2">Concept</h4>
             <p class="font-medium text-t2">
@@ -441,25 +507,31 @@
               modern.
             </p>
           </div>
-          <div class="border p-6 rounded-3xl bg-amber-300">
-            <img src="./assets/concept.png" alt="" />
-            <h4 class="text-2xl font-bold text-black1 pb-4 pt-2">Concept</h4>
+          <div class="border p-6 rounded-3xl bg-Design_bg">
+            <img src="./assets/flow-chart.png" alt="" />
+            <h4 class="text-2xl font-bold text-black1 pb-4 pt-2">
+              Design Process
+            </h4>
             <p class="font-medium text-t2">
               The barn house captivates with its blend of rustic charm and
               modern.
             </p>
           </div>
-          <div class="border p-6 rounded-3xl bg-emerald-300">
-            <img src="./assets/concept.png" alt="" />
-            <h4 class="text-2xl font-bold text-black1 pb-4 pt-2">Concept</h4>
+          <div class="border p-6 rounded-3xl bg-Supervision_bg">
+            <img src="./assets/vision.png" alt="" />
+            <h4 class="text-2xl font-bold text-black1 pb-4 pt-2">
+              Supervision
+            </h4>
             <p class="font-medium text-t2">
               The barn house captivates with its blend of rustic charm and
               modern.
             </p>
           </div>
-          <div class="border p-6 rounded-3xl bg-blue-300">
-            <img src="./assets/concept.png" alt="" />
-            <h4 class="text-2xl font-bold text-black1 pb-4 pt-2">Concept</h4>
+          <div class="border p-6 rounded-3xl bg-Budget_bg">
+            <img src="./assets/budget-planning.png" alt="" />
+            <h4 class="text-2xl font-bold text-black1 pb-4 pt-2">
+              Budget Planning
+            </h4>
             <p class="font-medium text-t2">
               The barn house captivates with its blend of rustic charm and
               modern.
@@ -468,10 +540,10 @@
         </div>
       </div>
       <!-- LATEST PORTFOLIO -->
-      <div class="bg-white">
+      <div class="bg-white py-10 sm:py-20 lg:py-24 space-y-8">
         <div class="text-center space-y-6 w-11/12 lg:w-10/12 mx-auto">
           <a
-            class="btn border-0 btn-sm text-base font-bold rounded-full w-64 box-content py-1 mx-auto bg-lime-200 text-t2 flex justify-center gap-2 hover:bg-green-400"
+            class="btn border-0 btn-sm text-base font-bold rounded-full w-64 box-content py-1 mx-auto bg-lime-200 text-t2 flex justify-center gap-2 hover:bg-lime-400"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -500,26 +572,34 @@
           </p>
         </div>
         <div
-          class="max-h-[2000px] sm:max-h-[1000px] lg:max-h-[500px] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-12 grid-rows-8 sm:grid-rows-4 lg:grid-rows-2  w-11/12 lg:w-10/12 mx-auto gap-6"
+          class="max-h-[2000px] sm:max-h-[1000px] lg:max-h-[500px] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-12 grid-rows-8 sm:grid-rows-4 lg:grid-rows-2 w-11/12 lg:w-10/12 mx-auto gap-6"
         >
           <div
-            class="flex flex-col sm:flex-row p-6 rounded-2xl border col-span-1 sm:col-span-2 lg:col-span-8 gap-5 row-span-2  sm:row-span-1"
+            class="flex flex-col sm:flex-row p-6 rounded-2xl border col-span-1 sm:col-span-2 lg:col-span-8 gap-5 row-span-2 sm:row-span-1"
           >
             <div class="h-1/2 sm:h-auto">
-              <img src="./assets/img1.png" alt="" class="rounded-2xl w-full h-full" />
+              <img
+                src="./assets/img1.png"
+                alt=""
+                class="rounded-2xl w-full h-full"
+              />
             </div>
-            <div class="h-1/2 sm:h-auto flex flex-col  justify-between   sm:max-w-[440px] lg:max-w-[400px]">
+            <div
+              class="h-1/2 sm:h-auto flex flex-col justify-between sm:max-w-[440px] lg:max-w-[400px]"
+            >
               <h4 class="font-extrabold text-xl text-t2">Commercial</h4>
               <p class="font-medium text-t1">
                 The barn house captivates with its blend of rustic charm and
                 modern. The barn house captivates with its blend of rustic charm
-                and modern .<span class="sm:hidden">The barn house captivates with </span>
+                and modern .<span class="sm:hidden"
+                  >The barn house captivates with
+                </span>
               </p>
               <a href="" class="flex items-center gap-3">
                 <div class="font-extrabold text-xl">View Details</div>
                 <div class="">
                   <div
-                    class="flex justify-center items-center rounded-full h-[2rem] min-h-[2rem] w-[2rem] bg-primary"
+                    class="flex justify-center items-center rounded-full h-[2rem] min-h-[2rem] w-[2rem] bg-primary hover:bg-lime-500"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -540,29 +620,51 @@
               </a>
             </div>
           </div>
-          <div class="p-6 rounded-2xl border col-span-1 sm:col-span-1 lg:col-span-4 row-span-1  sm:row-span-1">
-            <img src="./assets/img2.png" alt="" class="rounded-2xl w-full h-full" />
+          <div
+            class="p-6 rounded-2xl border col-span-1 sm:col-span-1 lg:col-span-4 row-span-1 sm:row-span-1"
+          >
+            <img
+              src="./assets/img2.png"
+              alt=""
+              class="rounded-2xl w-full h-full"
+            />
           </div>
-          <div class="p-6 rounded-2xl border col-span-1 sm:col-span-1 lg:col-span-3 row-span-1  sm:row-span-1">
-            <img src="./assets/img3.png" alt="" class="rounded-2xl w-full h-full" />
+          <div
+            class="p-6 rounded-2xl border col-span-1 sm:col-span-1 lg:col-span-3 row-span-1 sm:row-span-1"
+          >
+            <img
+              src="./assets/img3.png"
+              alt=""
+              class="rounded-2xl w-full h-full"
+            />
           </div>
           <div
             class="flex flex-col sm:flex-row p-6 rounded-2xl border col-span-1 sm:col-span-2 lg:col-span-6 gap-5 row-span-2 sm:row-span-1"
           >
             <div class="h-1/2 sm:h-auto">
-              <img src="./assets/img4.png" alt="" class="rounded-2xl w-full h-full" />
+              <img
+                src="./assets/img4.png"
+                alt=""
+                class="rounded-2xl w-full h-full"
+              />
             </div>
-            <div class="h-1/2 sm:h-auto flex flex-col justify-between  sm:max-w-[440px] lg:max-w-[290px]">
+            <div
+              class="h-1/2 sm:h-auto flex flex-col justify-between sm:max-w-[440px] lg:max-w-[290px]"
+            >
               <h4 class="font-extrabold text-xl text-t2">Commercial</h4>
               <p class="font-medium text-t1">
                 The barn house captivates with its blend of rustic charm and
-                modern. The barn house <span class="sm:hidden">The barn house captivates with its blend of rustic charm and modern. The barn house</span>
+                modern. The barn house
+                <span class="sm:hidden"
+                  >The barn house captivates with its blend of rustic charm and
+                  modern. The barn house</span
+                >
               </p>
               <a href="" class="flex items-center gap-3">
                 <div class="font-extrabold text-xl">View Details</div>
                 <div class="">
                   <div
-                    class="flex justify-center items-center rounded-full h-[2rem] min-h-[2rem] w-[2rem] bg-primary"
+                    class="flex justify-center items-center rounded-full h-[2rem] min-h-[2rem] w-[2rem] bg-primary hover:bg-lime-500"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -583,20 +685,31 @@
               </a>
             </div>
           </div>
-          <div class="p-6 rounded-2xl border col-span-1 sm:col-span-1 lg:col-span-3 row-span-1  sm:row-span-1">
-            <img src="./assets/img5.png" alt="" class="rounded-2xl w-full h-full" />
+          <div
+            class="p-6 rounded-2xl border col-span-1 sm:col-span-1 lg:col-span-3 row-span-1 sm:row-span-1"
+          >
+            <img
+              src="./assets/img5.png"
+              alt=""
+              class="rounded-2xl w-full h-full"
+            />
           </div>
-          <div class="lg:hidden p-6 rounded-2xl border col-span-1 sm:col-span-1 row-span-1 sm:row-span-1">
-            <img src="./assets/img3.png" alt="" class="rounded-2xl w-full h-full" />
-          </div>
+          <div
+            class="lg:hidden p-6 rounded-2xl border col-span-1 sm:col-span-1 row-span-1 sm:row-span-1"
+          >
+            <img
+              src="./assets/img3.png"
+              alt=""
+              class="rounded-2xl w-full h-full"
+            />
           </div>
         </div>
       </div>
       <!-- ARTICLES AND NEWS SECTION -->
-      <div class="w-11/12 lg:w-10/12 mx-auto">
+      <div class="py-10 sm:py-20 lg:py-24 w-11/12 lg:w-10/12 mx-auto space-y-8">
         <div class="text-center space-y-6">
           <a
-            class="btn border-0 btn-sm text-base font-bold rounded-full w-40 box-content py-1 mx-auto bg-lime-200 text-t2 flex justify-center gap-2 hover:bg-green-400"
+            class="btn border-0 btn-sm text-base font-bold rounded-full w-40 box-content py-1 mx-auto bg-lime-200 text-t2 flex justify-center gap-2 hover:bg-lime-400"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -640,11 +753,39 @@
             >
               <div class="flex gap-4">
                 <div class="flex items-center gap-3">
-                  <i class="fa-regular fa-calendar-days text-t1"></i>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-6 text-t1"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5m-9-6h.008v.008H12v-.008ZM12 15h.008v.008H12V15Zm0 2.25h.008v.008H12v-.008ZM9.75 15h.008v.008H9.75V15Zm0 2.25h.008v.008H9.75v-.008ZM7.5 15h.008v.008H7.5V15Zm0 2.25h.008v.008H7.5v-.008Zm6.75-4.5h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V15Zm0 2.25h.008v.008h-.008v-.008Zm2.25-4.5h.008v.008H16.5v-.008Zm0 2.25h.008v.008H16.5V15Z"
+                    />
+                  </svg>
+
                   <p class="text-t1 font-medium leading-6">July14,2024</p>
                 </div>
                 <div class="flex items-center gap-3">
-                  <i class="fa-solid fa-face-smile text-t1"></i>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-6 text-t1"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
+                    />
+                  </svg>
+
                   <p class="text-t1 font-medium leading-6">By Admin</p>
                 </div>
               </div>
@@ -659,7 +800,7 @@
                 <div class="font-bold text-xl">Read More</div>
                 <div class="">
                   <div
-                    class="flex justify-center items-center rounded-full h-[2rem] min-h-[2rem] w-[2rem] bg-primary"
+                    class="flex justify-center items-center rounded-full h-[2rem] min-h-[2rem] w-[2rem] bg-primary hover:bg-lime-500"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -685,7 +826,7 @@
           >
             <div>
               <img
-                src="./assets/article1.png"
+                src="./assets/article2.png"
                 alt=""
                 class="w-full h-auto sm:h-full lg:h-auto"
               />
@@ -695,11 +836,39 @@
             >
               <div class="flex gap-4">
                 <div class="flex items-center gap-3">
-                  <i class="fa-regular fa-calendar-days text-t1"></i>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-6 text-t1"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5m-9-6h.008v.008H12v-.008ZM12 15h.008v.008H12V15Zm0 2.25h.008v.008H12v-.008ZM9.75 15h.008v.008H9.75V15Zm0 2.25h.008v.008H9.75v-.008ZM7.5 15h.008v.008H7.5V15Zm0 2.25h.008v.008H7.5v-.008Zm6.75-4.5h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V15Zm0 2.25h.008v.008h-.008v-.008Zm2.25-4.5h.008v.008H16.5v-.008Zm0 2.25h.008v.008H16.5V15Z"
+                    />
+                  </svg>
+
                   <p class="text-t1 font-medium leading-6">July14,2024</p>
                 </div>
                 <div class="flex items-center gap-3">
-                  <i class="fa-solid fa-face-smile text-t1"></i>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-6 text-t1"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
+                    />
+                  </svg>
+
                   <p class="text-t1 font-medium leading-6">By Admin</p>
                 </div>
               </div>
@@ -714,7 +883,7 @@
                 <div class="font-bold text-xl">Read More</div>
                 <div class="">
                   <div
-                    class="flex justify-center items-center rounded-full h-[2rem] min-h-[2rem] w-[2rem] bg-primary"
+                    class="flex justify-center items-center rounded-full h-[2rem] min-h-[2rem] w-[2rem] bg-primary hover:bg-lime-500"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -740,7 +909,7 @@
           >
             <div>
               <img
-                src="./assets/article1.png"
+                src="./assets/article3.png"
                 alt=""
                 class="w-full h-auto sm:h-full lg:h-auto"
               />
@@ -750,11 +919,39 @@
             >
               <div class="flex gap-4">
                 <div class="flex items-center gap-3">
-                  <i class="fa-regular fa-calendar-days text-t1"></i>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-6 text-t1"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5m-9-6h.008v.008H12v-.008ZM12 15h.008v.008H12V15Zm0 2.25h.008v.008H12v-.008ZM9.75 15h.008v.008H9.75V15Zm0 2.25h.008v.008H9.75v-.008ZM7.5 15h.008v.008H7.5V15Zm0 2.25h.008v.008H7.5v-.008Zm6.75-4.5h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V15Zm0 2.25h.008v.008h-.008v-.008Zm2.25-4.5h.008v.008H16.5v-.008Zm0 2.25h.008v.008H16.5V15Z"
+                    />
+                  </svg>
+
                   <p class="text-t1 font-medium leading-6">July14,2024</p>
                 </div>
                 <div class="flex items-center gap-3">
-                  <i class="fa-solid fa-face-smile text-t1"></i>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-6 text-t1"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
+                    />
+                  </svg>
+
                   <p class="text-t1 font-medium leading-6">By Admin</p>
                 </div>
               </div>
@@ -769,7 +966,7 @@
                 <div class="font-bold text-xl">Read More</div>
                 <div class="">
                   <div
-                    class="flex justify-center items-center rounded-full h-[2rem] min-h-[2rem] w-[2rem] bg-primary"
+                    class="flex justify-center items-center rounded-full h-[2rem] min-h-[2rem] w-[2rem] bg-primary hover:bg-lime-500"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -798,10 +995,12 @@
         class="bg-no-repeat bg-cover"
         style="background-image: url(./assets/bg.jpg)"
       >
-        <div class="w-11/12 lg:w-10/12 mx-auto py-32">
+        <div
+          class="w-11/12 lg:w-10/12 mx-auto py-10 sm:py-20 lg:py-24 space-y-8"
+        >
           <div class="text-center space-y-6">
             <a
-              class="btn border-0 btn-sm text-base font-bold rounded-full w-40 box-content py-1 mx-auto bg-lime-200 text-t2 flex justify-center gap-2 hover:bg-green-400"
+              class="btn border-0 btn-sm text-base font-bold rounded-full w-40 box-content py-1 mx-auto bg-lime-200 text-t2 flex justify-center gap-2 hover:bg-lime-400"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -835,33 +1034,33 @@
               <input
                 type="text"
                 placeholder="First Name*"
-                class="input w-full rounded-full py-8 font-medium"
+                class="input w-full rounded-full md:py-8 font-medium"
               /><input
                 type="text"
                 placeholder="Last Name*"
-                class="input w-full rounded-full py-8 font-medium"
+                class="input w-full rounded-full md:py-8 font-medium"
               />
             </div>
             <div class="sm:flex sm:gap-7 space-y-6 sm:space-y-0">
               <input
                 type="text"
                 placeholder="Phone Number*"
-                class="input w-full rounded-full py-8 font-medium"
+                class="input w-full rounded-full md:py-8 font-medium"
               /><input
                 type="text"
                 placeholder="Email Number*"
-                class="input w-full rounded-full py-8 font-medium"
+                class="input w-full rounded-full md:py-8 font-medium"
               />
             </div>
             <div>
               <textarea
-                class="textarea w-full rounded-3xl h-56 py-4 text-base font-medium"
+                class="textarea w-full rounded-3xl h-56 md:py-4 text-base font-medium"
                 placeholder="Write your message here"
               ></textarea>
             </div>
           </form>
           <button
-            class="btn btn-block rounded-full p-0 py-1 mt-6 box-content bg-primary border-0"
+            class="btn btn-block rounded-full p-0 sm:py-1 mt-6 box-content bg-primary border-0 hover:bg-lime-500"
           >
             <div class="text-xl font-extrabold">Book Consult</div>
             <div
@@ -888,8 +1087,8 @@
       <div class="w-full h-2 bg-white"></div>
     </main>
     <!-- FOOTER SECTION -->
-    <footer class="bg-black py-32">
-      <div class="text-center space-y-6 w-11/12 lg:w-10/12 mx-auto">
+    <footer class="bg-black py-10 sm:py-20 lg:py-24">
+      <div class="text-center w-11/12 lg:w-10/12 mx-auto">
         <div class="flex justify-center gap-2">
           <div
             class="flex justify-center items-center rounded-full h-[2rem] min-h-[2rem] w-[2rem] bg-primary"
@@ -912,13 +1111,13 @@
           <div class="text-white text-3xl font-extrabold">Rinterio</div>
         </div>
         <p
-          class="text-base font-medium max-w-screen-sm mx-auto text-t1 leading-7"
+          class="text-base font-medium max-w-screen-sm mx-auto text-t1 leading-7 mt-6"
         >
           The barn house captivates with its blend of rustic charm and modern
           sophistication, featuring weathered wood, sleek metal accents.
         </p>
         <div
-          class="text-white1 font-bold flex flex-col sm:flex-row justify-evenly gap-6 sm:gap-0 lg:px-20"
+          class="text-white1 font-bold flex flex-col sm:flex-row justify-evenly my-10 gap-6 sm:gap-0 lg:px-20"
         >
           <a href="">Home</a>
           <a href="">Services</a>
@@ -927,7 +1126,7 @@
           <a href="">Contact Us</a>
         </div>
         <button
-          class="btn w-full sm:w-auto sm:px-4 rounded-full p-0 py-1 mt-6 sm:box-content bg-primary border-0 hover:bg-green-400"
+          class="btn w-full sm:w-auto sm:px-4 rounded-full p-0 py-1 sm:box-content bg-primary border-0 hover:bg-lime-500"
         >
           <div class="text-xl font-extrabold">Book Consult</div>
           <div
@@ -951,6 +1150,5 @@
         </button>
       </div>
     </footer>
-   
   </body>
 </html>
